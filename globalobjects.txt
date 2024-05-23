@@ -1,0 +1,14 @@
+Task 1 Step 2) The 3 Objects I have chosen are: http, console, process.
+
+Step 2a)HTTP: http interfaces are useful in making many features of the
+protocol more user-friendly, most notably in large and/or chunk-
+encoded messages. The interface will not buffer entire requests or reponses 
+so that the user can stream data.
+
+Console: the console module adds a debugging console with methods that can be used
+to write to any node.js stream it also has a global console that can be called without
+using: require('console').
+
+Process: The process object provides information about, and control over your
+current node.js process. process can be access as a global
+but it recommended to only access it using require or import.
